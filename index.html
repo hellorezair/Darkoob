@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Darkoob</title>
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet" />-->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="index">
+    <div class="help">
+        <h3>Help</h3>
+        <p>Darkoob is a very simple game. you have 60 seconds. the more you click on the boxes, the better your record will be.<br>if you click on white space, the game is over!</p>
+        <h4>Simple : </h4><p>the boxes dont disappear until you click on them.</p>
+        <h4>Speed Challenge : </h4><p>when a box appears on the screen, you have limited time to click on it.<br>on easy mode : 1s<br>on medium mode : 0.8s<br>on hard mode : 0.6s</p>
+        <!--<h4>Move Challenge : </h4><p>the boxes are hard to catch. they move. the speed of movement depends on challenge difficulty.</p>-->
+        <button type="button" id="gotit">Got it!</button>
+    </div><!--help-->
+    <div class="main">
+        <div class="menu">
+            <h1>Welcome to Darkoob</h1>
+            <h2>Darkoob is a simple online game. you just need to know how to click!</h2>
+            <span class="head">Choose game mode</span>
+            <select class="game-modes-select">
+                <option value="Simple">Simple</option>
+                <option value="Speed Challenge - easy">Speed Challenge - easy</option>
+                <option value="Speed Challenge - medium">Speed Challenge - medium</option>
+                <option value="Speed Challenge - hard">Speed Challenge - hard</option>
+                <!--<option value="Move Challenge - hard">Move Challenge - easy</option>
+                <option value="Move Challenge - medium">Move Challenge - medium</option>
+                <option value="Move Challenge - hard">Move Challenge - hard</option>-->
+            </select>
+            <br>
+            <button type="button" id="play">Play</button>
+            <button type="button" id="help">Help</button>
+        </div>
+    </div><!--main-->
+    <div class="count">
+        <span class="cc"></span>
+    </div><!--count-->
+    <div class="game">
+        <span class="record-till-now">Record : 0</span>
+        <span class="time-till-now">Time : 0</span>
+        <div class="box box-temp"></div><!--box-temp-->
+    </div><!--game-->
+    <div class="result">
+        <span class="show-result"></span>
+    </div><!--result-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
