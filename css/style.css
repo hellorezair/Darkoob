@@ -1,1 +1,211 @@
-
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 150%;
+    vertical-align: baseline;
+}
+html{
+    font-family: sans-serif;
+    font-size: 10px;
+}
+body{
+    font-size: 1.6rem;
+    color: #111;
+}
+.help{
+    background: rgb(187, 30, 68);
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    float: left;
+    text-align: left;
+    position: absolute;
+    z-index: 11;
+    display: none;
+}
+.show-help{
+    display: block;
+}
+.help p{
+    font-size: 1.6rem;
+    color: #fff;
+    margin-top: 0.5rem;
+}
+#gotit{
+    width: 8rem;
+    height: 4rem;
+    background: #fff;
+    color: rgb(187, 30, 68);
+    border: 0;
+    outline: none;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}    
+.main{
+    background: rgb(187, 30, 68);
+    width: 100%;
+    min-height: 100vh;
+	height: 100vh;
+    padding: 1rem;
+    float: left;
+    text-align: center;
+    display: table;
+    position: absolute;
+    z-index: 10;
+}
+.menu{
+    width: 100%;
+    min-height: 100vh;
+	height: 100vh;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+h1{
+    width: 100%;
+    height: auto;
+    float: left;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3.5rem;
+}
+h2{
+    width: 100%;
+    height: auto;
+    float: left;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+h3{
+    color: #fff;
+    font-size: 3.5rem;
+}
+h4{
+    color: #fff;
+    font-size: 2.5rem;
+    margin-top: 2rem; 
+}
+.head{
+    font-size: 2rem;
+    color: #fff;
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    float: left;
+    clear: both;
+}
+.game-modes-select{
+    border: 0;
+    background: #fff;
+    color: rgb(187, 30, 68);
+    width: auto;
+    border-radius: 1rem;
+    outline: none;
+    padding: 0 0.5rem;
+    font-size: 1.5rem;
+    height: 5rem;
+    margin-bottom: 1rem;
+}
+.menu button{
+    border: 0;
+    outline: none;
+    border-radius: 1rem;
+    display: inline-block;
+    height: 4rem;
+    padding: 0 1.5rem;
+    cursor: pointer;
+    background: #fff;
+    color: rgb(187, 30, 68);
+    font-size: 1.5rem;
+}
+.count{
+    width: 100%;
+    height: 100vh;
+    display: table;
+    float: left;
+    background: #fff;
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+}
+.game{
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background: #fff;
+    position: absolute;
+    z-index: 7;
+    text-align: center;
+    cursor: pointer;
+}
+.cc{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 7.2rem;
+    color: rgb(187, 30, 68);
+}
+.box{
+    position: absolute;
+    z-index: 8;
+    width:7rem;
+    height: 7rem;
+    background: rgb(187, 30, 68);
+    cursor: pointer;
+}
+.box-temp{
+    display: none;
+}
+.record-till-now{
+    position: fixed;
+    left: 1rem;
+    top: 1rem;
+    color: #111;
+    font-size: 1.5rem;
+    z-index: 7;
+}
+.time-till-now{
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    color: #111;
+    font-size: 1.5rem;
+    z-index: 7;
+}
+.result{
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background: #ccc;
+    position: absolute;
+    z-index: 6;
+    text-align: center;
+    display: table;
+}
+.show-result{
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+    background: rgb(187, 30, 68);
+    font-size: 3.5rem;
+}
+.result-ok{
+    border: 0;
+    outline: none;
+    display: inline-block;
+    border-radius: 1rem;
+    padding: 1rem 1.3rem;
+    cursor: pointer;
+    background: #fff;
+    color: rgb(187, 30, 68);
+    font-size: 1.5rem;
+}
+.hidden{
+    display: none;
+}
