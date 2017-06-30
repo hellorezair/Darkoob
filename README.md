@@ -8,4 +8,5 @@ the boxes dont disappear until you click on them.<br><br>
 when a box appears on the screen, you have limited time to click on it.<br>
 on easy mode : 1s <br>
 on medium mode : 0.8s <br>
-on hard mode : 0.6s <br>
+on hard mode : 0.6s <br><br>
+if you want to play darkoob online, here is the link : http://rdesigner.ir/darkoob
