@@ -13,6 +13,6 @@ the boxes dont disappear until you click on them.
 Speed Challenge :
 
 when a box appears on the screen, you have limited time to click on it.
-on easy mode : 1s
-on medium mode : 0.8s
-on hard mode : 0.6s
+on easy mode : 1s <br>
+on medium mode : 0.8s <br>
+on hard mode : 0.6s <br>
