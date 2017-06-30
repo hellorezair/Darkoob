@@ -1,7 +1,7 @@
 # Darkoob
-Darkoob is a simple online game. you just need to know how to click!<br>
-Darkoob is a very simple game. you have 60 seconds. the more you click on the boxes, the better your record will be.
-if you click on white space, the game is over!<br><br>
+<b>Darkoob is a simple online game. you just need to know how to click!</b><br><br>
+<b>Darkoob is a very simple game. you have 60 seconds. the more you click on the boxes, the better your record will be.
+if you click on white space, the game is over!</b><br><br>
 <b>Simple :</b><br>
 the boxes dont disappear until you click on them.<br><br>
 <b>Speed Challenge :</b><br>
